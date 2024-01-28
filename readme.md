@@ -1,5 +1,14 @@
 # Numerical Heat Equation Solver
 This is my implementation of numerical solving for the heat equation.
+
+
+https://github.com/suzsel/Heat-Equation/assets/97324529/b76d9752-7a2d-4508-a7c8-1b37fa0c387e
+
+
+https://github.com/suzsel/Heat-Equation/assets/97324529/e555814b-c08b-409f-bdb8-9d456fab211d
+
+
+
 ## Run
 ```console 
 python HeatEquation.py
