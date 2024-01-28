@@ -10,7 +10,8 @@ https://github.com/suzsel/Heat-Equation/assets/97324529/e555814b-c08b-409f-bdb8-
 
 
 ## Run
-```console 
+```console
+pip install -r requirements.txt
 python HeatEquation.py
 ```
 
