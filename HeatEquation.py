@@ -8,17 +8,17 @@ import argparse
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("-l", type=int, default=100, help='boundary condition for left side of the plate')
-    parser.add_argument("-t", type=int, default=100, help='boundary condition for top side of the plate')
-    parser.add_argument("-r", type=int, default=100, help='boundary condition for right side of the plate')
-    parser.add_argument("-b", type=int, default=100, help='boundary condition for bottom side of the plate')
+    parser.add_argument("-l", "--length", type=int, default=100, help='boundary condition for left side of the plate')
+    parser.add_argument("-t", "--top", type=int, default=100, help='boundary condition for top side of the plate')
+    parser.add_argument("-r", "--right", type=int, default=100, help='boundary condition for right side of the plate')
+    parser.add_argument("-b", "--botton", type=int, default=100, help='boundary condition for bottom side of the plate')
 
-    parser.add_argument("-d",   type=float, default=97, help='mm^2 / sec (aluminium - default)')
-    parser.add_argument("-len", type=float, default=50, help='mm')
-    parser.add_argument("-wid", type=float, default=50, help='mm')
+    parser.add_argument("-d", "--diffusivity",  type=float, default=97, help='mm^2 / sec (aluminium - default)')
+    parser.add_argument("-len", "--length", type=float, default=50, help='mm')
+    parser.add_argument("-wid", "--width", type=float, default=50, help='mm')
 
-    parser.add_argument("-tm", type=float, default=4, help='seconds')
-    parser.add_argument("-n",  type=int, default=40, help='nodes')
+    parser.add_argument("-tm", "--time",type=float, default=4, help='seconds')
+    parser.add_argument("-n",  "--nodes", type=int, default=40, help='nodes')
 
     args = parser.parse_args()
 
